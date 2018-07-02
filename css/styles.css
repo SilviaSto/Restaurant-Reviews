@@ -107,7 +107,7 @@ font-size: 1.5em;
 
 /* Add a color to all links inside the list */
 #breadcrumb li a {
-    color: #0275d8;
+    color: #095da5;
     text-decoration: none;
 }
 
@@ -295,7 +295,7 @@ font-size: 1.5em;
  text-align: justify;
 }
 #restaurant-hours td {
-  color: #666;
+  color: #3d3d3d;
   font-size: 1.5em;
 }
 
