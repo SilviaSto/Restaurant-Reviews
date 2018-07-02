@@ -88,7 +88,6 @@ font-size: 1.5em;
     padding: 10px 40px 16px;
     list-style: none;
     background-color: #eee;
-    font-size: 2em; 
     margin: 0;
     width:100%;
 }
@@ -96,6 +95,7 @@ font-size: 1.5em;
 /* Display list items side by side */
 #breadcrumb li {
     display: inline;
+    font-size: 1.5em; 
 }
 
 /* Add a slash symbol (/) before/behind each list item */
@@ -274,10 +274,16 @@ font-size: 1.5em;
   color: #621d2b;
   font-size: 3.2em;
   font-weight: 300;
+  margin-left: 20px;
 }
 #reviews-list {
   margin: -10px;
   padding: 0;
+  width: 100%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 #reviews-list li {
   background-color: #fff;
@@ -296,8 +302,15 @@ font-size: 1.5em;
 }
 #restaurant-hours td {
   color: #3d3d3d;
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
+#reviews-list li p:first-child {
+  font-size: 1.2em;
+}
+#reviews-list li p:last-child {
+  font-size: 1.2em;
+}
+
 
  /* ====================== Media Queries ====================== */
   @media screen and (min-width: 425px){
@@ -350,6 +363,15 @@ font-size: 1.5em;
     font-size: 1.5em;
     margin: 0;
     padding-top: 10px;
+  }
+}
+@media screen and (min-width: 660px){
+  #reviews-list li {
+    width: calc(100% / 2 - 25px);
+    margin-right: 10px;
+  }
+  #reviews-list li p:last-child {
+    font-size: 1em;
   }
 }
 
