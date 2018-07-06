@@ -5,7 +5,10 @@
   box-sizing: border-box;
 }
 
-body,td,th,p{
+body,
+td,
+th,
+p {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 8px;
 	color: #333;
@@ -18,7 +21,8 @@ body {
   max-width: 1200px;
   padding: 0;
 }
-ul, li {
+ul,
+li {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
 	color: #333;
@@ -39,11 +43,27 @@ a:hover, a:focus {
 a img{
 	border: none 0px #fff;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4, 
+h5, 
+h6 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0 0 20px;
 }
-article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article, 
+aside, 
+canvas, 
+details, 
+figcaption, 
+figure, 
+footer, 
+header, 
+hgroup, 
+menu, 
+nav, 
+section {
 	display: block;
 }
 #maincontent {
@@ -273,7 +293,8 @@ font-size: 1.5em;
   text-transform: uppercase;
 	width: 90%;
 }
-#restaurant-container, #reviews-container {
+#restaurant-container, 
+#reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
   padding: 85px 40px 30px;
@@ -325,18 +346,18 @@ font-size: 1.5em;
 
 
  /* ====================== Media Queries ====================== */
-  @media screen and (min-width: 425px){
-    body{
-      font-size: 10px;
-    }
+@media screen and (min-width: 425px){
+  body{
+    font-size: 10px;
   }
+}
 
-  @media screen and (min-width: 500px) {
-    #restaurants-list li{
-      width: calc(100% / 2 - 10px);
-    }
- }
- @media screen and (min-width: 800px) {
+@media screen and (min-width: 500px) {
+  #restaurants-list li{
+    width: calc(100% / 2 - 10px);
+  }
+}
+@media screen and (min-width: 800px) {
   #restaurants-list li{
     width: calc(100% / 3 - 10px);
   }
