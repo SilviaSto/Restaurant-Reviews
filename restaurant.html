@@ -15,14 +15,16 @@
 <body class="inside">
   <!-- Beginning header -->
   <header>
+      <a href="#restaurant-name" class="skip-link">Skip to Restaurant Details</a>
     <!-- Beginning nav -->
     <nav>
       <h1>
         <a tabindex="0" href="/">Restaurant Reviews</a>
       </h1>
     </nav>
+    
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" tabindex="0" role="navigation">
+    <ul id="breadcrumb" role="navigation">
       <li><a href="/" aria-label="Home">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
@@ -32,9 +34,9 @@
 
   <!-- Beginning main -->
   <main id="maincontent">
-    <!-- Beginning map -->
+      <!-- Beginning map -->
     <section id="map-container" aria-label="Map">
-      <div id="map" aria-label="Restaurant location on map" role="application"></div>
+      <div id="map" aria-label="Restaurant location on map" role="application" tabindex="-1"></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
@@ -47,8 +49,8 @@
     </section>
     <!-- end restaurant -->
     <!-- Beginning reviews -->
-    <section id="reviews-container" tabindex="0" aria-label="Reviews">
-      <ul id="reviews-list"></ul>
+    <section id="reviews-container">
+      <ul id="reviews-list" aria-label="Reviews"></ul>
     </section>
     <!-- End reviews -->
   </main>
