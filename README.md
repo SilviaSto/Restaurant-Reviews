@@ -21,10 +21,15 @@ The students have been provided the code for a restaurant reviews website. The c
 1.Clone the repository;
 
 2.From inside the new directory, launch a local client server using Python from your terminal:
+
 If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+
 In a terminal, check the version of Python you have: `python -V`.
+
 Python 2: python -m SimpleHTTPServer 8000 (or some other port, if port 8000 is already in use.)
+
 or
+
 Python 3: python3 -m http.server 8000
 
 3.Visit the site in your browser at `http://localhost:8000`.
