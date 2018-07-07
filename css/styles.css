@@ -207,7 +207,7 @@ font-size: 1.5em;
   display: block;
   margin: 0;
 }
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #621d2b;
   font-family: Arial,sans-serif;
   font-size: 12pt;
